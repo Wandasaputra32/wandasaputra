@@ -12,4 +12,10 @@ class web extends CI_Controller{
         $this->load->view('v_index',$data);
         $this->load->view('v_footer',$data);
     }
+    public function about(){
+        $data['judul'] = "Halaman about";
+        $this->load->view('v_header',$data);
+        $this->load->view('v_about',$data);
+        $this->load->view('v_footer',$data);
+    }
 }
