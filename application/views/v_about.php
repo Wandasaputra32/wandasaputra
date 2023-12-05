@@ -1,23 +1,25 @@
 <section>
-    <h1><?php echo $judul ?></h1>
+    <h1><?php echo $judul; ?></h1>
     <h4>Nama</h4>
     <ul type="disc">
-        <li>Nama Depan : Riza</li>
-        <li>Nama Belakang : Pratama</li>
+        <li>Nama Depan : Wanda</li>
+        <li>Nama Belakang : Saputra</li>
     </ul>
     <br>
+ 
     <h4>Alamat</h4>
     <ul type="none">
-        <li> Jalan Agus Salim</li>
+        <li> KTW Taman Flora Blok F5 no 21</li>
     </ul>
-    
+
     <h4>Tempat Lahir</h4>
     <ul type="none">
-        <li>Bekasi</li>
+        <li>Tegal</li>
     </ul>
+
     <h4>Olah Raga Favorit</h4>
     <ul type="square">
-        <li>Bulutangkis</li>
-        <li>Catur</li>
+        <li>Silat</li>
+        <li>Futsal</li>
     </ul>
 </section>

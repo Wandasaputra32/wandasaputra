@@ -109,7 +109,7 @@ class Buku extends CI_Controller
                 'dibooking' => 0,
                 'image' => $gambar
             ];
-            $this->ModelBuku->simpanBuku($data);
+            $this->ModelBuku->simpan($data);
             redirect('buku');
         }
     }
@@ -260,7 +260,7 @@ class Buku extends CI_Controller
     public function hapusBuku()
     {
         $where = ['id' => $this->uri->segment(3)];
-        $this->ModelBuku->hapusBuku($where);
+        $this->ModelBuku->hapus($where);
         redirect('buku');
     }
 }
